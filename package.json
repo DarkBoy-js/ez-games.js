@@ -1,9 +1,10 @@
 {
   "name": "ez-games.js",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Simple package to make agames for ur bot!",
-  "main": "ezgames.js",
+  "main": "./ez-games.js",
   "scripts": {
+    "start": "node ez-games.js"
   },
   "repository": {
     "type": "git",
