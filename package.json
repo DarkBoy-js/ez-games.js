@@ -2,11 +2,8 @@
   "name": "ez-games.js",
   "version": "1.0.1",
   "description": "Simple package to make agames for ur bot!",
-  "main": "index.js",
+  "main": "ezgames.js",
   "scripts": {
-    "test": "echo",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
