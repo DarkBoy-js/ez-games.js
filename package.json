@@ -1,0 +1,31 @@
+{
+  "name": "ez-games.js",
+  "version": "1.0.1",
+  "description": "Simple package to make agames for ur bot!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkBoy-js/ez-games.js.git"
+  },
+  "keywords": [
+    "games",
+    "discord.js",
+    "ez-games"
+  ],
+  "author": "darkboy <you@example.com> (http://darkboy.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarkBoy-js/ez-games.js/issues"
+  },
+  "homepage": "https://github.com/DarkBoy-js/ez-games.js#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "nodemon": "^2.0.6",
+    "quick.db": "^7.1.3"
+  }
+}
