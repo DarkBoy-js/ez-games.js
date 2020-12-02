@@ -57,11 +57,11 @@ client.on('message',  async message => {
    if(!message.guild) return;
    let data = await ezgames.points(message.author.id)
    /**
-    * points => user points  
+    * total => user points  
     * wins => user wins
     * loses => user loses
     */
-   message.channel.send(`Total Points: ${data.points}`)
+   message.channel.send(`Total Points: ${data.total}`)
   }
 })
 ```
